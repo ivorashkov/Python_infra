@@ -1,9 +1,4 @@
-pip install requests
+prometheus.py / prometheus_filter.metrics.py
+pip install requests prometheus_client apscheduler
 pip freeze > requirements.txt
 pip install -r requirements.txt
-
-prometheus.py
-pip install requests prometheus_client apscheduler
-
-prometheus_test.py
-pip install requests prometheus_client apscheduler flask
